@@ -9,3 +9,6 @@ npm install
 For IOS/Android
 Support lunar
 
+![image](https://github.com/cqm1994617/react-native-myCalendar/blob/master/ios.gif)   
+
+![image](https://github.com/cqm1994617/react-native-myCalendar/blob/master/android.gif)   
