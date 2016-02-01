@@ -9,7 +9,9 @@ hope enjoy~
 #Demo
 For IOS/Android
 IOS: using ScrollView
+
 Android: using ViewpagerAndroid
+
 Support lunar
 
 ![image](https://github.com/cqm1994617/react-native-myCalendar/blob/master/ios.gif)   
