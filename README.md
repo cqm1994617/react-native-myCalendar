@@ -10,7 +10,7 @@ hope enjoy~
 #Demo
 For IOS/Android
 
-IOS: using ScrollView
+IOS: using ScrollView 
 
 Android: using ViewpagerAndroid
 
