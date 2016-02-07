@@ -5,6 +5,7 @@ A calendar for react-native (rn 0.18)
 
 #Installation
 npm install
+
 hope enjoy~
 
 #Demo
