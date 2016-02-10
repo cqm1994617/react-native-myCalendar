@@ -12,7 +12,7 @@ import React, {
     Navigator
 } from 'react-native';
 
-import main from './mainAndroid.js';
+import main from './pages/mainAndroid.js';
 
 class myDate extends Component {
     constructor(props){
@@ -27,7 +27,7 @@ class myDate extends Component {
             <Navigator
                 initialRoute={{ name: 'main', component: main, params: {date: this.state.date}}}
                 configureScene={() => {
-                    return Navigator.SceneConfigs.FloatFromLeft;
+                    return Navigator.SceneConfigs.FloatFromRight;//FloatFromRight
                 }}
                 renderScene={(route, navigator)=>{
                         let Component = route.component;
