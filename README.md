@@ -9,6 +9,9 @@ npm install
 
 hope enjoy~
 
+#issue
+android上，选择时段弹窗无法按返回键取消，会回退到上一页面。假期结束之后会修复
+
 #Demo
 For IOS/Android
 
