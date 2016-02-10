@@ -20,9 +20,13 @@ Support lunar
 **IOS gif**
 
 ![image](https://github.com/cqm1994617/react-native-myCalendar/blob/master/ios.gif)   
+
 ![image](https://github.com/cqm1994617/react-native-myCalendar/blob/master/ios2.gif) 
+
 ![image](https://github.com/cqm1994617/react-native-myCalendar/blob/master/ios3.gif) 
 
 **Android gif**
+
 ![image](https://github.com/cqm1994617/react-native-myCalendar/blob/master/android.gif)
+
 ![image](https://github.com/cqm1994617/react-native-myCalendar/blob/master/android2.gif) 
