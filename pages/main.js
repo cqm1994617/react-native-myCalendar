@@ -15,7 +15,7 @@ import React, {
     Image
 } from 'react-native';
 
-import chineseLunar from "chinese-lunar";
+import chineseLunar from "./chinese-lunar";
 import SQLite from "react-native-sqlite-storage";
 import newAct from "./newAct";
 import actView from "./actView"

@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "react-native": "^0.18.1",
-    "react-native-sqlite": "0.0.12"
+    "react-native-sqlite-storage": "2.1.3"
   }
 }

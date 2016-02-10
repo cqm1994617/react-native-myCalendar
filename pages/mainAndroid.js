@@ -15,7 +15,7 @@ import React, {
     BackAndroid,
     PixelRatio
 } from 'react-native';
-import chineseLunar from "chinese-lunar"
+import chineseLunar from "./chinese-lunar"
 import SQLite from "react-native-sqlite-storage";
 import newAct from "./newActAndroid";
 import actView from "./actViewAndroid"
