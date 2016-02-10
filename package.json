@@ -5,6 +5,13 @@
   "scripts": {
     "start": "react-native start"
   },
+  "keywords": [
+    "calendar",
+    "react native",
+    "sqlite"
+  ],
+  "author": "cqm1994617",
+  "homepage": "",
   "dependencies": {
     "react-native": "^0.18.1",
     "react-native-sqlite-storage": "2.1.3"
