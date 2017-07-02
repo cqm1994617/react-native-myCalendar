@@ -6,7 +6,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Calendar
-        height={250}
+        height={300}
       />
     );
   }

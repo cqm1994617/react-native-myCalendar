@@ -11,26 +11,18 @@ import {
 import util from './lib/util';
 import CalendarHead from './components/CalendarHead';
 import CalendarPanel from './components/CalendarPanel';
+import CalendarItem from './components/CalendarItem';
 
 const {width} = Dimensions.get('window');
-
-const styles = StyleSheet.create({
-  v: {
-    width,
-    height: 250
-  }
-});
 
 export default class Calendar extends React.Component {
 
   static propTypes = {
     width: PropTypes.number,
-    height: PropTypes.number
   };
 
   static defaultProps = {
-    width,
-    height: 250
+    width
   };
 
   state = {
@@ -80,11 +72,10 @@ export default class Calendar extends React.Component {
   render() {
     const {preMonthDate, currentDate, nextMonthDate} = this.state;
     const {width, height} = this.props;
-    console.log(preMonthDate, currentDate, nextMonthDate);
     if (Platform.OS === 'ios') {
       return (
         <View>
-          <CalendarHead date={currentDate} />
+          <CalendarHead date={currentDate}/>
           <ScrollView
             horizontal={true}
             showsHorizontalScrollIndicator={false}
@@ -114,16 +105,27 @@ export default class Calendar extends React.Component {
     }
     return (
       <View>
-        <CalendarHead date={currentDate} />
+        <CalendarHead date={currentDate}/>
         <ViewPagerAndroid
-          style={{height: 250}}
           initialPage={1}
           onPageSelected={(event) => this.scrollEnd(event)}
           ref={(scrollView) => this.scrollView = scrollView}
         >
-          <CalendarPanel date={preMonthDate}/>
-          <CalendarPanel date={currentDate}/>
-          <CalendarPanel date={nextMonthDate}/>
+          <CalendarPanel
+            date={preMonthDate}
+            width={width}
+            height={height}
+          />
+          <CalendarPanel
+            date={currentDate}
+            width={width}
+            height={height}
+          />
+          <CalendarPanel
+            date={nextMonthDate}
+            width={width}
+            height={height}
+          />
         </ViewPagerAndroid>
       </View>
     )
