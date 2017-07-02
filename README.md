@@ -2,6 +2,9 @@
 react-native-Calendar
 A calendar for react-native (rn 0.18)
 
+##可以去calendar分支上查看单纯的日历(不过目前仍在开发完善中)。
+
+
 已添加sqlite，可以在每一天纪录活动(add sqlite)
 
 #Installation
